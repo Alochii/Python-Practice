@@ -1,0 +1,111 @@
+https://www.youtube.com/watch?v=rfscVS0vtbw four hour long course.
+
+How to declare variables
+How to use strings
+    Len(string) for length
+    lower() for lowercase letter
+    upper() for upper case letter
+    index("F") find position of letter f
+    replace ("Aaas" "Boi") Replaces certain string with another
+    string[num] display the string at index num
+
+how to use numbers 
+    absolute value : abs(num)
+    power function : pow(num,power)
+    maximum of two : max(num1,num2)
+    minimum of two : min(num1, num2)
+    rounding nums  : round(floatnum)
+
+    Additional math functions from the module "from math import *"
+    lower bound integer : floor(num)
+    upper bound integer : ciel(num)
+    square root : sqrt(num)
+
+inputs : 
+    input("show message for the input")
+    input() : just input directly
+    name = input() : save the input into name
+    
+lists : 
+    name = [1,string,3]
+    name[0] = 1
+    name[1][3] = i
+    name[0:2] = 1,string. not including index 2
+    name.extend([anotherlist]) to append list
+    name.append("name") to append one item.
+    name.insert(index,"name")
+    name.remove(name) to remove it
+    name.clear() empty list.
+    name.pop() removes the last element.
+    name.index(name) where is it
+    name.count(name) how many times it appears
+    name.sort()    sorts alphabet or numbers
+    name.reverse()   reverses it.
+    name2 = name.copy()   copies it with all attributes.
+    2D lists :
+    list = [
+        [1,2,3],
+        [4,5,6],
+        [2,1],
+    ]
+
+tuples : 
+    instead of declating list with [], do it with ()
+    the difference is that you can't change what's inside a tuple. 
+    for some reason..yeah.
+
+function : 
+    def name (parameter 1, paramter 2):
+        whatever you want here
+        return value
+
+Dictionaries : 
+    name = {
+        "short" : "longword",
+        "short2" : "longword2",
+    }
+    to access : 
+    name.get("short",alternative)
+    name["short"]
+
+while condition :
+    stuff
+    break (if you want to break it)
+
+for loops : 
+    for name in range(from A, to B, steps):
+        whatever you need repeated
+
+    also works for lists : 
+    friends = [1,2,3]
+    for name in friends : 
+        print(name)
+
+    also works for strings
+    string = "shrek"
+    for letter in string : 
+        print(letter)
+
+comments : 
+    # whatever you need as a comment
+    '''
+    you can also use three apostrophies
+    '''
+
+error catching : 
+    try : 
+        whatever your code is. for example number = 10/0
+    
+    except :
+        print("whatever")   
+    except error name : 
+        print ("what you need to see when you get that error)
+    except error name as err : 
+        print(err) will print the error instead of displaying it on the terminal.
+
+Open and edit files : 
+    Babiesopen = open("babies.txt", 'r')    (can be r for read, a for append, w for write, r+ for read and write)
+    for babie in Babiesopen.readlines():
+        print(babie)
+    Babiesopen.write("whatever you want written)
+    Babiesopen.close()
