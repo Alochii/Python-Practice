@@ -15,4 +15,6 @@ current projects :
     9- blind bidding dictionary and solver
    10- calculator!
    11- Black Jack
-   
+   12- Number guessing game
+   13- just some debugging practice. no code.
+   14- Higher or lower game
