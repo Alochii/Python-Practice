@@ -19,10 +19,21 @@ import pandas
 # print(round(sum(temp_list)/len(temp_list), 2))
 # maxtemp_day = data[data.temp == data.temp.max()]
 # print(maxtemp_day.condition)
+#
+# my_data = {
+#     "days": [1, 2, 3, 4],
+#     "happiness": [8, 7, 8, 9],
+# }
+# data = pandas.DataFrame(my_data)
+# data.to_csv("new data.csv")
 
-my_data = {
-    "days": [1, 2, 3, 4],
-    "happiness": [8, 7, 8, 9],
+data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
+count_gray = len(data[data["Primary Fur Color"] == "Gray"])
+count_black = len(data[data["Primary Fur Color"] == "Black"])
+count_cinnamon = len(data[data["Primary Fur Color"] == "Cinnamon"])
+color_table = {
+    "Fur color": ["Gray", "Black", "Cinnamon"],
+    "count": [count_gray, count_black, count_cinnamon],
 }
-data = pandas.DataFrame(my_data)
-data.to_csv("new data.csv")
+color_data = pandas.DataFrame(color_table)
+color_data.to_csv("Squirrel Fur color count.csv")
