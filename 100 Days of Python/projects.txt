@@ -1,0 +1,20 @@
+Future project idea : 
+    rock paper scissors but advanced.
+    game that has blind bidding as a function maybe?
+    a fully functional calculator
+    
+current projects : 
+    1- band name generator
+    2- tip calculator to split the bill
+    3- treasure hunt adventure game
+    4- advanced rock paper scissors with 5 choices
+    5- random password generator
+    X- played with robot. no project
+    7- Hangman
+    8- ceaser cypher coder and decoder
+    9- blind bidding dictionary and solver
+   10- calculator!
+   11- Black Jack
+   12- Number guessing game
+   13- just some debugging practice. no code.
+   14- Higher or lower game
